@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>766</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0" colspan="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Categorias :Tiempo,Temperatura,Velocidad,Volumen,Longitud,Masa</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QComboBox" name="comboBox_entrada"/>
+   </item>
+   <item row="3" column="2">
+    <widget class="QComboBox" name="comboBox_destino"/>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="pushButton_convertir">
+     <property name="text">
+      <string>Realizar conversion</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <widget class="QLineEdit" name="numero_conversion">
+     <property name="placeholderText">
+      <string>Escriba el numero ...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3" alignment="Qt::AlignmentFlag::AlignHCenter">
+    <widget class="QLabel" name="lbl_titulo">
+     <property name="styleSheet">
+      <string notr="true">font: 26pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Conversor de unidades</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="3">
+    <widget class="QTextEdit" name="campo_explicacion"/>
+   </item>
+   <item row="1" column="2">
+    <widget class="QCheckBox" name="chk_mostrar_pasos">
+     <property name="text">
+      <string>Mostrar pasos</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

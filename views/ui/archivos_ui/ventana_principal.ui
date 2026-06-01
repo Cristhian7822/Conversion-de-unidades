@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAplicacion">
+    <property name="title">
+     <string>Aplicacion</string>
+    </property>
+    <addaction name="act_realizar_conversion"/>
+    <addaction name="act_exportar_csv"/>
+    <addaction name="act_mostrar_historial"/>
+    <addaction name="separator"/>
+    <addaction name="act_salir"/>
+   </widget>
+   <widget class="QMenu" name="menuTeoriasYTablas">
+    <property name="title">
+     <string>Teorias y Tablas</string>
+    </property>
+    <addaction name="act_longitud"/>
+    <addaction name="act_masa"/>
+    <addaction name="act_tiempo"/>
+    <addaction name="act_temperatura"/>
+    <addaction name="separator"/>
+    <addaction name="act_velocidad"/>
+    <addaction name="act_volumen"/>
+   </widget>
+   <widget class="QMenu" name="menuVentana">
+    <property name="title">
+     <string>Ventana</string>
+    </property>
+    <addaction name="act_cascada"/>
+    <addaction name="act_mosaico"/>
+    <addaction name="separator"/>
+    <addaction name="act_cerrar_ventanas"/>
+   </widget>
+   <widget class="QMenu" name="menuTema">
+    <property name="title">
+     <string>Tema</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="act_tema_claro"/>
+    <addaction name="act_tema_oscuro"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="act_ayuda"/>
+   </widget>
+   <addaction name="menuAplicacion"/>
+   <addaction name="menuTeoriasYTablas"/>
+   <addaction name="menuVentana"/>
+   <addaction name="menuTema"/>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <widget class="QStatusBar" name="status_bar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="act_realizar_conversion">
+   <property name="text">
+    <string>Realizar conversion</string>
+   </property>
+  </action>
+  <action name="act_exportar_csv">
+   <property name="text">
+    <string>Exportar CSV</string>
+   </property>
+  </action>
+  <action name="act_mostrar_historial">
+   <property name="text">
+    <string>Mostrar Historial</string>
+   </property>
+  </action>
+  <action name="act_longitud">
+   <property name="text">
+    <string>Longitud</string>
+   </property>
+  </action>
+  <action name="act_masa">
+   <property name="text">
+    <string>Masa</string>
+   </property>
+  </action>
+  <action name="act_tiempo">
+   <property name="text">
+    <string>Tiempo</string>
+   </property>
+  </action>
+  <action name="act_temperatura">
+   <property name="text">
+    <string>Temperatura</string>
+   </property>
+  </action>
+  <action name="act_velocidad">
+   <property name="text">
+    <string>Velocidad</string>
+   </property>
+  </action>
+  <action name="act_volumen">
+   <property name="text">
+    <string>Volumen</string>
+   </property>
+  </action>
+  <action name="act_cascada">
+   <property name="text">
+    <string>Cascada</string>
+   </property>
+  </action>
+  <action name="act_mosaico">
+   <property name="text">
+    <string>Mosaico</string>
+   </property>
+  </action>
+  <action name="act_cerrar_ventanas">
+   <property name="text">
+    <string>Cerrar ventanas</string>
+   </property>
+  </action>
+  <action name="act_tema_claro">
+   <property name="text">
+    <string>Tema claro</string>
+   </property>
+  </action>
+  <action name="act_tema_oscuro">
+   <property name="text">
+    <string>Tema oscuro</string>
+   </property>
+  </action>
+  <action name="act_ayuda">
+   <property name="text">
+    <string>Ayuda</string>
+   </property>
+  </action>
+  <action name="act_salir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

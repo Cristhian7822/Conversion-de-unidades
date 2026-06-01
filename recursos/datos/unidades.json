@@ -1,0 +1,66 @@
+{
+      "Longitud":[
+      {"nombre":"milímetro","simbolo": "mm", "factor": 0.001},
+      {"nombre":"centímetro","simbolo": "cm", "factor": 0.01},
+      {"nombre":"decímetro","simbolo": "dm", "factor": 0.1},
+      {"nombre":"metro","simbolo": "m", "factor": 1},
+      {"nombre":"decámetro", "simbolo": "dam", "factor": 10},
+      {"nombre":"hectómetro", "simbolo": "hm", "factor": 100},
+      {"nombre":"kilómetro", "simbolo": "km", "factor": 1000},
+      {"nombre":"pulgada", "simbolo": "in", "factor": 0.0254},
+      {"nombre":"pie", "simbolo": "ft", "factor": 0.3048},
+      {"nombre":"yarda", "simbolo": "yd", "factor": 0.9144},
+      {"nombre":"milla", "simbolo": "mi", "factor": 1609.344},
+      {"nombre":"milla náutica", "simbolo": "nmi", "factor": 1852},
+      {"nombre":"micrómetro", "simbolo": "µm", "factor": 0.000001},
+      {"nombre":"nanómetro", "simbolo": "nm", "factor": 0.000000001}
+    ],
+
+    "Masa":[
+    {"nombre":"miligramo", "simbolo": "mg", "factor": 0.000001},
+    {"nombre":"gramo", "simbolo": "g", "factor": 0.001},
+    {"nombre":"kilogramo", "simbolo": "kg", "factor": 1},
+    {"nombre":"tonelada", "simbolo": "t", "factor": 1000},
+    {"nombre":"onza", "simbolo": "oz", "factor": 0.0283495},
+    {"nombre":"libra", "simbolo": "lb", "factor": 0.453592},
+    {"nombre":"microgramo", "simbolo": "µg", "factor": 0.000000001},
+    {"nombre":"stone", "simbolo": "st", "factor": 6.35029},
+    {"nombre":"onza troy", "simbolo": "ozt", "factor": 0.0311035}
+    ],
+
+    "Volumen":[
+    {"nombre":"mililitro", "simbolo": "ml", "factor": 0.001},
+    {"nombre":"litro", "simbolo": "l", "factor": 1},
+    {"nombre":"metro cúbico", "simbolo": "m³", "factor": 1000},
+    {"nombre":"galón", "simbolo": "gal", "factor": 3.78541},
+    {"nombre":"barril", "simbolo": "bbl", "factor": 158.987},
+    {"nombre":"pinta", "simbolo": "pt", "factor": 0.473176},
+    {"nombre":"taza", "simbolo": "cut", "factor": 0.236588},
+    {"nombre":"onza líquida", "simbolo": "fl oz", "factor": 0.0295735},
+    {"nombre":"cucharada", "simbolo": "tbsp", "factor": 0.0147868},
+    {"nombre":"cucharadita", "simbolo": "tsp", "factor": 0.00492892}
+    ],
+    
+    "Tiempo":[
+    {"nombre":"segundo", "simbolo": "s", "factor": 1},
+    {"nombre":"minuto", "simbolo": "min", "factor": 60},
+    {"nombre":"hora", "simbolo": "h", "factor": 3600},
+    {"nombre":"día", "simbolo": "d", "factor": 86400},
+    {"nombre":"semana", "simbolo": "sem", "factor": 604800},
+    {"nombre":"milisegundo", "simbolo": "ms", "factor": 0.001}
+    ],
+
+    "Velocidad":[
+    {"nombre":"metro por segundo", "simbolo": "m/s", "factor": 1},
+    {"nombre":"kilómetro por hora", "simbolo": "km/h", "factor": 0.277778},
+    {"nombre":"milla por hora", "simbolo": "mph", "factor": 0.44704},
+    {"nombre":"pie por segundo", "simbolo": "ft/s", "factor": 0.3048}
+    ],
+
+    "Temperatura":[
+    {"nombre":"Celsius", "simbolo": "°C", "factor": "No lleva factor, tiene formula"},
+    {"nombre":"Fahrenheit", "simbolo": "°F", "factor": "No lleva factor, tiene formula"},
+    {"nombre":"Kelvin", "simbolo": "K", "factor": "No lleva factor, tiene formula"},
+    {"nombre":"Rankine", "simbolo": "°Ra", "factor": "No lleva factor, tiene formula"}
+    ]
+  }

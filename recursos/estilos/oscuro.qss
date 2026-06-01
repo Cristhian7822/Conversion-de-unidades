@@ -1,0 +1,234 @@
+/* ==================== TEMA OSCURO PARA PROYECTO ==================== */
+/* Estética moderna: base muy oscura, azul frío y acentos claros para lectura y foco. */
+
+* {
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+QMainWindow, QDialog, QWidget {
+    background-color: #141b27;
+    color: #e7ecf5;
+}
+
+QMdiArea {
+    background-color: #121823;
+}
+
+QMdiSubWindow {
+    background-color: #181f2f;
+    border: 1px solid #2f3f58;
+    border-radius: 8px;
+}
+
+QFrame, QGroupBox, QListWidget, QTableWidget, QPlainTextEdit, QTextEdit {
+    background-color: #181f2f;
+    border: 1px solid #28354d;
+    border-radius: 8px;
+}
+
+QLabel {
+    color: #e7ecf5;
+}
+
+QLabel#label {
+    color: #ffffff;
+    font-size: 24pt;
+    font-weight: 800;
+    background-color: #1f2a3d;
+    border: 1px solid #2f3f58;
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+
+QLabel#label_2 {
+    color: #a8b8dc;
+    font-size: 10pt;
+    padding: 4px;
+}
+
+QPushButton {
+    background-color: #1f2a3d;
+    color: #e7ecf5;
+    border: 2px solid #1a5cff;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-weight: 700;
+    min-height: 32px;
+}
+
+QPushButton:hover {
+    background-color: #26406c;
+}
+
+QPushButton:pressed {
+    background-color: #1a2d50;
+}
+
+QPushButton:disabled {
+    background-color: #1b2330;
+    color: #6b768d;
+    border-color: #2b3a53;
+}
+
+QPushButton#pushButton_realizar_conversion,
+QPushButton#pushButton_cargar_conversion {
+    background-color: #1a5cff;
+    border-color: #2b71ff;
+}
+
+QPushButton#pushButton_realizar_conversion:hover,
+QPushButton#pushButton_cargar_conversion:hover {
+    background-color: #2a71ff;
+}
+
+QPushButton#pushButton_eliminar {
+    background-color: #da4141;
+    border-color: #b03030;
+}
+
+QPushButton#pushButton_eliminar:hover {
+    background-color: #e56060;
+}
+
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox {
+    background-color: #151d2b;
+    color: #e7ecf5;
+    border: 2px solid #283952;
+    border-radius: 8px;
+    padding: 8px;
+    min-height: 30px;
+}
+
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus {
+    border: 2px solid #4d84ff;
+    background-color: #1c2740;
+}
+
+QLineEdit#numero_conversion {
+    font-size: 13pt;
+    padding: 10px;
+}
+
+QTextEdit#campo_explicacion {
+    background-color: #161f30;
+    border: 1px solid #26334d;
+    border-radius: 8px;
+    padding: 10px;
+    color: #d9e2f2;
+    font-size: 10.5pt;
+}
+
+QTableWidget {
+    background-color: #161f30;
+    gridline-color: #2f3f58;
+    border: 1px solid #24324a;
+}
+
+QTableWidget::item:selected {
+    background-color: #1d2b45;
+    color: #ffffff;
+}
+
+QHeaderView::section {
+    background-color: #1f2a3d;
+    color: #e7ecf5;
+    padding: 6px;
+    border: none;
+}
+
+QDockWidget {
+    background: transparent;
+    border: none;
+}
+
+QDockWidget::title {
+    background-color: #1f2a3d;
+    color: #a8b8dc;
+    padding: 8px;
+    border-bottom: 1px solid #283952;
+}
+
+QListWidget {
+    background-color: #161f30;
+    border: 1px solid #28334c;
+    border-radius: 8px;
+    color: #e7ecf5;
+}
+
+QListWidget::item:selected {
+    background-color: #1a2e4e;
+    color: #ffffff;
+}
+
+QMenuBar {
+    background-color: #1b2638;
+    color: #e7ecf5;
+}
+
+QMenuBar::item:selected {
+    background-color: #273b5f;
+}
+
+QMenu {
+    background-color: #161f30;
+    color: #e7ecf5;
+    border: 1px solid #28334c;
+}
+
+QMenu::item:selected {
+    background-color: #1f2a44;
+}
+
+QScrollBar:vertical, QScrollBar:horizontal {
+    background: #1b2638;
+    border-radius: 8px;
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background: #3e6cd6;
+    border-radius: 8px;
+}
+
+QScrollBar::handle:vertical:hover, QScrollBar::handle:horizontal:hover {
+    background: #5d82ff;
+}
+
+QSlider::groove:horizontal {
+    background-color: #283552;
+    height: 6px;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background-color: #4d84ff;
+    width: 16px;
+    border-radius: 8px;
+}
+
+QProgressBar {
+    background-color: #1b2638;
+    border: 1px solid #283952;
+    border-radius: 8px;
+    height: 20px;
+}
+
+QProgressBar::chunk {
+    background-color: #4d84ff;
+    border-radius: 8px;
+}
+
+QMessageBox QLabel {
+    color: #e7ecf5;
+}
+
+QMessageBox QPushButton {
+    min-width: 60px;
+}
+
+QWidget:focus {
+    outline: none;
+}
+
+QWidget[accessibleName="largeText"] {
+    font-size: 12pt;
+}

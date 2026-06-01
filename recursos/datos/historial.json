@@ -1,0 +1,149 @@
+{
+    "11.0 milímetro -> 11.0 milímetro": {
+        "unidad_entrada": "milímetro",
+        "unidad_salida": "milímetro",
+        "valor_entrada": 11.0,
+        "valor_salida": 11.0,
+        "timestamp": "2026-05-31 13:46:27"
+    },
+    "12.0 milímetro -> 12.0 milímetro": {
+        "unidad_entrada": "milímetro",
+        "unidad_salida": "milímetro",
+        "valor_entrada": 12.0,
+        "valor_salida": 12.0,
+        "timestamp": "2026-05-31 15:53:49"
+    },
+    "265.0 Kelvin -> -8.149999999999977 Celsius": {
+        "unidad_entrada": "Kelvin",
+        "unidad_salida": "Celsius",
+        "valor_entrada": 265.0,
+        "valor_salida": -8.149999999999977,
+        "timestamp": "2026-05-31 15:00:15"
+    },
+    "121324.0 Rankine -> 0.0 Rankine": {
+        "unidad_entrada": "Rankine",
+        "unidad_salida": "Rankine",
+        "valor_entrada": 121324.0,
+        "valor_salida": 0.0,
+        "timestamp": "2026-05-31 15:54:06"
+    },
+    "121324.0 Rankine -> 67402.22222222222 Kelvin": {
+        "unidad_entrada": "Rankine",
+        "unidad_salida": "Kelvin",
+        "valor_entrada": 121324.0,
+        "valor_salida": 67402.22222222222,
+        "timestamp": "2026-05-31 15:54:08"
+    },
+    "11.0 Rankine -> 11.0 Rankine": {
+        "unidad_entrada": "Rankine",
+        "unidad_salida": "Rankine",
+        "valor_entrada": 11.0,
+        "valor_salida": 11.0,
+        "timestamp": "2026-05-31 16:44:45"
+    },
+    "11.0 Rankine -> 6.111111111111111 Kelvin": {
+        "unidad_entrada": "Rankine",
+        "unidad_salida": "Kelvin",
+        "valor_entrada": 11.0,
+        "valor_salida": 6.111111111111111,
+        "timestamp": "2026-05-31 16:44:45"
+    },
+    "11.0 Rankine -> -448.67 Fahrenheit": {
+        "unidad_entrada": "Rankine",
+        "unidad_salida": "Fahrenheit",
+        "valor_entrada": 11.0,
+        "valor_salida": -448.67,
+        "timestamp": "2026-05-31 16:44:46"
+    },
+    "11.0 Rankine -> -267.0388888888889 Celsius": {
+        "unidad_entrada": "Rankine",
+        "unidad_salida": "Celsius",
+        "valor_entrada": 11.0,
+        "valor_salida": -267.0388888888889,
+        "timestamp": "2026-05-31 16:44:46"
+    },
+    "11.0 Celsius -> 51.8 Fahrenheit": {
+        "unidad_entrada": "Celsius",
+        "unidad_salida": "Fahrenheit",
+        "valor_entrada": 11.0,
+        "valor_salida": 51.8,
+        "timestamp": "2026-05-31 16:44:53"
+    },
+    "11.0 Celsius -> 284.15 Kelvin": {
+        "unidad_entrada": "Celsius",
+        "unidad_salida": "Kelvin",
+        "valor_entrada": 11.0,
+        "valor_salida": 284.15,
+        "timestamp": "2026-05-31 16:44:53"
+    },
+    "11.0 Celsius -> 511.46999999999997 Rankine": {
+        "unidad_entrada": "Celsius",
+        "unidad_salida": "Rankine",
+        "valor_entrada": 11.0,
+        "valor_salida": 511.46999999999997,
+        "timestamp": "2026-05-31 16:44:52"
+    },
+    "22.0 milímetro -> 22.0 milímetro": {
+        "unidad_entrada": "milímetro",
+        "unidad_salida": "milímetro",
+        "valor_entrada": 22.0,
+        "valor_salida": 22.0,
+        "timestamp": "2026-06-01 11:26:29"
+    },
+    "5687.0 decámetro -> 56870.0 metro": {
+        "unidad_entrada": "decámetro",
+        "unidad_salida": "metro",
+        "valor_entrada": 5687.0,
+        "valor_salida": 56870.0,
+        "timestamp": "2026-05-31 21:25:08"
+    },
+    "1000.0 centímetro -> 10.0 metro": {
+        "unidad_entrada": "centímetro",
+        "unidad_salida": "metro",
+        "valor_entrada": 1000.0,
+        "valor_salida": 10.0,
+        "timestamp": "2026-05-31 21:27:31"
+    },
+    "1000.0 centímetro -> 1.0 decámetro": {
+        "unidad_entrada": "centímetro",
+        "unidad_salida": "decámetro",
+        "valor_entrada": 1000.0,
+        "valor_salida": 1.0,
+        "timestamp": "2026-05-31 21:27:30"
+    },
+    "100.0 centímetro -> 1.0 metro": {
+        "unidad_entrada": "centímetro",
+        "unidad_salida": "metro",
+        "valor_entrada": 100.0,
+        "valor_salida": 1.0,
+        "timestamp": "2026-05-31 21:27:36"
+    },
+    "1000.0 metro -> 1.0 kilómetro": {
+        "unidad_entrada": "metro",
+        "unidad_salida": "kilómetro",
+        "valor_entrada": 1000.0,
+        "valor_salida": 1.0,
+        "timestamp": "2026-05-31 22:24:24"
+    },
+    "13.0 kilómetro por hora -> 3.611114 metro por segundo": {
+        "unidad_entrada": "kilómetro por hora",
+        "unidad_salida": "metro por segundo",
+        "valor_entrada": 13.0,
+        "valor_salida": 3.611114,
+        "timestamp": "2026-05-31 22:26:31"
+    },
+    "1000.0 milímetro -> 1.0 metro": {
+        "unidad_entrada": "milímetro",
+        "unidad_salida": "metro",
+        "valor_entrada": 1000.0,
+        "valor_salida": 1.0,
+        "timestamp": "2026-06-01 00:11:44"
+    },
+    "275.0 Celsius -> 548.15 Kelvin": {
+        "unidad_entrada": "Celsius",
+        "unidad_salida": "Kelvin",
+        "valor_entrada": 275.0,
+        "valor_salida": 548.15,
+        "timestamp": "2026-06-01 00:14:03"
+    }
+}

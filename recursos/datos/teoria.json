@@ -1,0 +1,13 @@
+{
+    "Longitud": "La longitud es la magnitud física que mide la distancia entre dos puntos. En el Sistema Internacional de Unidades (SI), la unidad fundamental es el metro (m). Se utiliza para describir dimensiones espaciales como la altura, el ancho y la profundidad, así como trayectorias. Comprender las conversiones de longitud es esencial en campos que van desde la arquitectura hasta la astronomía, donde se usan unidades como el año luz.",
+  
+    "Masa": "La masa es una propiedad intrínseca de la materia que mide la resistencia de un objeto a la aceleración. A diferencia del peso, que es una fuerza que depende de la gravedad, la masa de un cuerpo permanece constante independientemente de su ubicación en el universo. El kilogramo (kg) es la unidad base. Es una medida crítica en química, medicina y física de partículas.",
+  
+    "Volumen": "El volumen es la medida del espacio tridimensional ocupado por un cuerpo. Se deriva de la longitud elevada al cubo. Mientras que el metro cúbico (m³) es la unidad oficial del SI, en contextos domésticos e industriales se utiliza frecuentemente el litro (L) y sus derivados. La conversión precisa de volumen es vital en hidrodinámica, cocina profesional y logística de transporte de fluidos.",
+  
+    "Tiempo": "El tiempo es la magnitud que permite ordenar los sucesos en secuencias, estableciendo un pasado, un presente y un futuro. Su unidad base es el segundo (s). A diferencia de otras magnitudes, el tiempo no es decimal en su totalidad en las unidades superiores (minutos, horas), basándose en sistemas sexagesimales heredados de antiguas civilizaciones. Es el eje central de la navegación y la física moderna.",
+  
+    "Velocidad": "La velocidad mide la tasa de cambio de posición de un objeto respecto al tiempo. En términos técnicos, es una magnitud vectorial que incluye dirección, aunque comúnmente nos referimos a su rapidez (escalar). La unidad base es el metro por segundo (m/s). El estudio de la velocidad permite desde optimizar el tráfico vehicular hasta alcanzar la velocidad de escape para misiones espaciales.",
+  
+    "Temperatura": "La temperatura es una magnitud que refleja la energía cinética promedio de las partículas en un sistema térmico. No es una medida de calor total, sino de intensidad térmica. Existen diversas escalas: Celsius (°C) usada globalmente para el clima; Fahrenheit (°F) común en EE.UU.; y Kelvin (K), la escala absoluta utilizada en ciencia donde el cero representa la inmovilidad molecular total."
+  }
