@@ -159,7 +159,7 @@ conversor_multimedia/
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tuusuario/conversor-multimedia.git
+git clone https://github.com/Cristhian7822/conversor-multimedia.git
 cd conversor-multimedia
 
 # Crear entorno virtual
