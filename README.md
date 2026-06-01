@@ -28,7 +28,7 @@ El proyecto fue desarrollado como trabajo universitario para la materia **Progra
 - 📚 **Teoría y tablas de referencia** — contenido educativo por categoría en formato HTML
 - 📏 **ReglaVisual** — widget personalizado interactivo dibujado con QPainter
 - 🔍 **Autocompletado** — QCompleter en los combobox de unidades
-- 🔢 **Preferencia de decimales** — control de precisión del resultado con QSpinBox
+- 🔢 **Preferencia de decimales** — control de precisión del resultado con QSpinBox y QInputDialog
 - 📤 **Exportación a CSV** — exporta el historial de conversiones
 - 📦 **Empaquetado con PyInstaller** — distribuible como ejecutable sin necesidad de instalar Python
 
@@ -160,7 +160,7 @@ conversor_multimedia/
 ```bash
 # Clonar el repositorio
 git clone https://github.com/Cristhian7822/Conversion-de-unidades.git
-cd conversor-multimedia
+cd Conversion-de-unidades
 
 # Crear entorno virtual
 python -m venv venv
@@ -182,7 +182,7 @@ python main.py
 
 ## 🎮 Uso de la Aplicación
 
-1. **Abrir conversión** — Menú *Aplicación → Realizar conversión*, selecciona la categoría en el diálogo
+1. **Abrir conversión** — Menú *Aplicación → Realizar conversión*, selecciona la categoría en el diálogo y selecciona el numero de decimales que quiere en el segundo dialogo
 2. **Convertir** — Ingresa el valor, selecciona unidades de entrada y destino, presiona *Convertir*
 3. **Ver teoría** — Menú *Teorías y Tablas*, selecciona la categoría
 4. **Cambiar tema** — Menú *Tema → Claro / Oscuro*
@@ -202,6 +202,18 @@ El proyecto fue diseñado con un diagrama UML de clases que incluye:
 - Clases generadas por Qt Designer como `«mixin»`
 
 ---
+## Empaquetado con PyInstaller
+Ejecutar desde la raíz del proyecto. 
+Esto genera dist/ConversorMultimedia con la app y los recursos añadidos.
+Windows(PowerSheel/CMD)
+```bash
+python -m PyInstaller --noconfirm --clean --onedir --windowed --name "ConversorMultimedia" --add-data "recursos;recursos" --add-data "views/ui/archivos_ui;views/ui/archivos_ui" --add-data "views/ui/archivos_py;views/ui/archivos_py" --add-data "Diagrama_corregido_2.drawio;." --collect-all PySide6 main.py
+```
+Linux/macOS
+```bash
+python3 -m PyInstaller --noconfirm --clean --onedir --windowed --name "ConversorMultimedia" --add-data "recursos:recursos" --add-data "views/ui/archivos_ui:views/ui/archivos_ui" --add-data "views/ui/archivos_py:views/ui/archivos_py" --add-data "Diagrama_corregido_2.drawio:." --collect-all PySide6 main.py
+```
+
 
 ## 👨‍💻 Autores
 
