@@ -205,8 +205,8 @@ El proyecto fue diseñado con un diagrama UML de clases que incluye:
 
 ## 👨‍💻 Autor
 
-**Camilo Vergara**
-**Cristian Arciniegas**
+**Camilo Vergara**\n
+**Cristian Arciniegas**\n
 **Jhon Mosquera**  
 
 ---
